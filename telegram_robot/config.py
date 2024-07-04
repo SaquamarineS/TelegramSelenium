@@ -9,10 +9,4 @@ class Locators:
 
 
 class Telegram:
-    url = os.getenv('TELEGRAM_URL', 'https://web.telegram.org/k/')
-
-
-users = {
-        '@snowdyDT': 'Hello',
-        '@waves0101': 'Hello'
-    }
+    url = os.getenv('TELEGRAM_URL')
